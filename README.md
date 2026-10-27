@@ -1,4 +1,4 @@
-# Ankit & Swati — Editable Wedding Invitation Website
+# Vikash kumar & Annu kumari — Editable Wedding Invitation Website
 
 A mobile-friendly, static wedding invitation inspired by premium Indian wedding invitation websites. Includes animated hero, countdown, events, photo gallery, music controls, venue directions, and a demo RSVP form.
 

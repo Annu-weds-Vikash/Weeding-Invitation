@@ -15,13 +15,13 @@
 
   // Groom's name
   document.querySelectorAll('[data-name="groom"]').forEach(el => {
-    el.textContent = cfg.groom || "Ankit";
+    el.textContent = cfg.groom || "Vikash kumar";
   });
 
   // Bride's name: keep the initial separate for styling.
   // This section must appear only once.
   document.querySelectorAll('[data-name="bride"]').forEach(el => {
-    const brideName = cfg.bride || "Swati";
+    const brideName = cfg.bride || "Annu kumari";
     el.textContent = "";
 
     const initial = document.createElement("span");
@@ -168,7 +168,7 @@
 
       const message =
         `You are warmly invited to the wedding of ` +
-        `${cfg.groom || "Ankit"} & ${cfg.bride || "Swati"} on ` +
+        `${cfg.groom || "Vikash kumar"} & ${cfg.bride || "Annu kumari"} on ` +
         `${cfg.dateLabel || "25 November 2026"}. Venue: ` +
         `${cfg.venueName || "Deepak Line Hotel"}, ` +
         `${cfg.venueAddress || "Jaiprakash Nagar, Muzaffarpur"}. ` +
@@ -209,8 +209,8 @@
     }
 
     const message =
-      `Wedding RSVP for ${cfg.groom || "Ankit"} & ` +
-      `${cfg.bride || "Swati"}\n` +
+      `Wedding RSVP for ${cfg.groom || "Vikash kumar"} & ` +
+      `${cfg.bride || "Annu kumari"}\n` +
       `Name: ${data.guestName}\n` +
       `Attendance: ${data.attendance}\n` +
       `Message: ${data.message || "No message"}`;
